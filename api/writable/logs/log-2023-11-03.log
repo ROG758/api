@@ -1,0 +1,70 @@
+CRITICAL - 2023-11-03 20:08:38 --> Class "App\Controllers\ProductosModel" not found
+in APPPATH\Controllers\ProductoController.php on line 93.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ProductoController->update('update', '0')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Rodrigo\\Desktop\\code\\api\\public\\index.php')
+CRITICAL - 2023-11-03 20:09:16 --> Class "App\Controllers\ProductosModel" not found
+in APPPATH\Controllers\ProductoController.php on line 93.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ProductoController->update('0')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Rodrigo\\Desktop\\code\\api\\public\\index.php')
+CRITICAL - 2023-11-03 20:09:42 --> Class "App\Controllers\ProductosModel" not found
+in APPPATH\Controllers\ProductoController.php on line 93.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ProductoController->update('0')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Rodrigo\\Desktop\\code\\api\\public\\index.php')
+CRITICAL - 2023-11-03 20:09:46 --> Class "App\Controllers\ProductosModel" not found
+in APPPATH\Controllers\ProductoController.php on line 93.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ProductoController->update('0')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Rodrigo\\Desktop\\code\\api\\public\\index.php')
+CRITICAL - 2023-11-03 20:12:37 --> Call to undefined function App\Controllers\genericResponse()
+in APPPATH\Controllers\ProductoController.php on line 116.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ProductoController->delete('0')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Rodrigo\\Desktop\\code\\api\\public\\index.php')
+CRITICAL - 2023-11-03 20:12:49 --> Call to undefined function App\Controllers\genericResponse()
+in APPPATH\Controllers\ProductoController.php on line 116.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ProductoController->delete('1')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Rodrigo\\Desktop\\code\\api\\public\\index.php')
+CRITICAL - 2023-11-03 20:13:03 --> Call to undefined function App\Controllers\genericResponse()
+in APPPATH\Controllers\ProductoController.php on line 116.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ProductoController->delete('1')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Rodrigo\\Desktop\\code\\api\\public\\index.php')
+CRITICAL - 2023-11-03 20:13:26 --> Call to undefined method App\Controllers\ProductoController::genericResponse()
+in APPPATH\Controllers\ProductoController.php on line 116.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ProductoController->delete('1')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Rodrigo\\Desktop\\code\\api\\public\\index.php')
+CRITICAL - 2023-11-03 20:13:37 --> Call to undefined method App\Controllers\ProductoController::genericResponse()
+in APPPATH\Controllers\ProductoController.php on line 116.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ProductoController->delete('', '')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Rodrigo\\Desktop\\code\\api\\public\\index.php')
+CRITICAL - 2023-11-03 20:14:07 --> Call to undefined method App\Controllers\ProductoController::genericResponse()
+in APPPATH\Controllers\ProductoController.php on line 116.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ProductoController->delete('1')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Rodrigo\\Desktop\\code\\api\\public\\index.php')

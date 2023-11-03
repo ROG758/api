@@ -1,0 +1,186 @@
+ERROR - 2023-10-28 23:19:46 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'NOT NULL UNIQUE,
+	`descripcion` text NULL,
+	`imagen` varchar NULL,
+	`precio` flo' at line 3 in C:\Users\Rodrigo\Desktop\code\api\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\Rodrigo\Desktop\code\api\system\Database\MySQLi\Connection.php(306): mysqli->query('CREATE TABLE `p...', 0)
+#1 C:\Users\Rodrigo\Desktop\code\api\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `p...')
+#2 C:\Users\Rodrigo\Desktop\code\api\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `p...')
+#3 C:\Users\Rodrigo\Desktop\code\api\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `p...')
+#4 C:\Users\Rodrigo\Desktop\code\api\app\Database\Migrations\2023-10-28-222405_Productos.php(24): CodeIgniter\Database\Forge->createTable('productos', true)
+#5 C:\Users\Rodrigo\Desktop\code\api\system\Database\MigrationRunner.php(873): App\Database\Migrations\Productos->up()
+#6 C:\Users\Rodrigo\Desktop\code\api\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\Users\Rodrigo\Desktop\code\api\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\Users\Rodrigo\Desktop\code\api\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\Users\Rodrigo\Desktop\code\api\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\Users\Rodrigo\Desktop\code\api\spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2023-10-28 23:20:29 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'NOT NULL UNIQUE,
+	`descripcion` text NULL,
+	`imagen` varchar NULL,
+	`precio` flo' at line 3 in C:\Users\Rodrigo\Desktop\code\api\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\Rodrigo\Desktop\code\api\system\Database\MySQLi\Connection.php(306): mysqli->query('CREATE TABLE `p...', 0)
+#1 C:\Users\Rodrigo\Desktop\code\api\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `p...')
+#2 C:\Users\Rodrigo\Desktop\code\api\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `p...')
+#3 C:\Users\Rodrigo\Desktop\code\api\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `p...')
+#4 C:\Users\Rodrigo\Desktop\code\api\app\Database\Migrations\2023-10-28-222405_Productos.php(24): CodeIgniter\Database\Forge->createTable('productos', true)
+#5 C:\Users\Rodrigo\Desktop\code\api\system\Database\MigrationRunner.php(873): App\Database\Migrations\Productos->up()
+#6 C:\Users\Rodrigo\Desktop\code\api\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\Users\Rodrigo\Desktop\code\api\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\Users\Rodrigo\Desktop\code\api\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\Users\Rodrigo\Desktop\code\api\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\Users\Rodrigo\Desktop\code\api\spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2023-10-28 23:21:37 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'NOT NULL UNIQUE,
+	`descripcion` text NULL,
+	`imagen` varchar NULL,
+	`precio` flo' at line 3 in C:\Users\Rodrigo\Desktop\code\api\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\Rodrigo\Desktop\code\api\system\Database\MySQLi\Connection.php(306): mysqli->query('CREATE TABLE `p...', 0)
+#1 C:\Users\Rodrigo\Desktop\code\api\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `p...')
+#2 C:\Users\Rodrigo\Desktop\code\api\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `p...')
+#3 C:\Users\Rodrigo\Desktop\code\api\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `p...')
+#4 C:\Users\Rodrigo\Desktop\code\api\app\Database\Migrations\2023-10-28-222405_Productos.php(24): CodeIgniter\Database\Forge->createTable('productos', true)
+#5 C:\Users\Rodrigo\Desktop\code\api\system\Database\MigrationRunner.php(873): App\Database\Migrations\Productos->up()
+#6 C:\Users\Rodrigo\Desktop\code\api\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\Users\Rodrigo\Desktop\code\api\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\Users\Rodrigo\Desktop\code\api\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\Users\Rodrigo\Desktop\code\api\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\Users\Rodrigo\Desktop\code\api\spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2023-10-28 23:25:30 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'NOT NULL UNIQUE,
+	`descripcion` text NULL,
+	`imagen` varchar NOT NULL,
+	`precio`' at line 3 in C:\Users\Rodrigo\Desktop\code\api\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\Rodrigo\Desktop\code\api\system\Database\MySQLi\Connection.php(306): mysqli->query('CREATE TABLE `p...', 0)
+#1 C:\Users\Rodrigo\Desktop\code\api\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `p...')
+#2 C:\Users\Rodrigo\Desktop\code\api\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `p...')
+#3 C:\Users\Rodrigo\Desktop\code\api\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `p...')
+#4 C:\Users\Rodrigo\Desktop\code\api\app\Database\Migrations\2023-10-28-222405_Productos.php(24): CodeIgniter\Database\Forge->createTable('productos', true)
+#5 C:\Users\Rodrigo\Desktop\code\api\system\Database\MigrationRunner.php(873): App\Database\Migrations\Productos->up()
+#6 C:\Users\Rodrigo\Desktop\code\api\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\Users\Rodrigo\Desktop\code\api\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\Users\Rodrigo\Desktop\code\api\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\Users\Rodrigo\Desktop\code\api\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\Users\Rodrigo\Desktop\code\api\spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2023-10-28 23:26:10 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'NOT NULL UNIQUE,
+	`descripcion` text NULL,
+	`imagen` varchar NOT NULL,
+	`precio`' at line 3 in C:\Users\Rodrigo\Desktop\code\api\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\Rodrigo\Desktop\code\api\system\Database\MySQLi\Connection.php(306): mysqli->query('CREATE TABLE `p...', 0)
+#1 C:\Users\Rodrigo\Desktop\code\api\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `p...')
+#2 C:\Users\Rodrigo\Desktop\code\api\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `p...')
+#3 C:\Users\Rodrigo\Desktop\code\api\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `p...')
+#4 C:\Users\Rodrigo\Desktop\code\api\app\Database\Migrations\2023-10-28-222405_Productos.php(24): CodeIgniter\Database\Forge->createTable('productos', true)
+#5 C:\Users\Rodrigo\Desktop\code\api\system\Database\MigrationRunner.php(873): App\Database\Migrations\Productos->up()
+#6 C:\Users\Rodrigo\Desktop\code\api\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\Users\Rodrigo\Desktop\code\api\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\Users\Rodrigo\Desktop\code\api\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\Users\Rodrigo\Desktop\code\api\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\Users\Rodrigo\Desktop\code\api\spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2023-10-28 23:26:50 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'NOT NULL UNIQUE,
+	`descripcion` text NULL,
+	`imagen` varchar NULL,
+	`precio` flo' at line 3 in C:\Users\Rodrigo\Desktop\code\api\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\Rodrigo\Desktop\code\api\system\Database\MySQLi\Connection.php(306): mysqli->query('CREATE TABLE `p...', 0)
+#1 C:\Users\Rodrigo\Desktop\code\api\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `p...')
+#2 C:\Users\Rodrigo\Desktop\code\api\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `p...')
+#3 C:\Users\Rodrigo\Desktop\code\api\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `p...')
+#4 C:\Users\Rodrigo\Desktop\code\api\app\Database\Migrations\2023-10-28-222405_Productos.php(24): CodeIgniter\Database\Forge->createTable('productos', true)
+#5 C:\Users\Rodrigo\Desktop\code\api\system\Database\MigrationRunner.php(873): App\Database\Migrations\Productos->up()
+#6 C:\Users\Rodrigo\Desktop\code\api\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\Users\Rodrigo\Desktop\code\api\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\Users\Rodrigo\Desktop\code\api\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\Users\Rodrigo\Desktop\code\api\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\Users\Rodrigo\Desktop\code\api\spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2023-10-28 23:28:50 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'NOT NULL UNIQUE,
+	`descripcion` text NULL,
+	`imagen` varchar NULL,
+	`precio` flo' at line 3 in C:\Users\Rodrigo\Desktop\code\api\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\Rodrigo\Desktop\code\api\system\Database\MySQLi\Connection.php(306): mysqli->query('CREATE TABLE `p...', 0)
+#1 C:\Users\Rodrigo\Desktop\code\api\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `p...')
+#2 C:\Users\Rodrigo\Desktop\code\api\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `p...')
+#3 C:\Users\Rodrigo\Desktop\code\api\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `p...')
+#4 C:\Users\Rodrigo\Desktop\code\api\app\Database\Migrations\2023-10-28-222405_Productos.php(24): CodeIgniter\Database\Forge->createTable('productos', true)
+#5 C:\Users\Rodrigo\Desktop\code\api\system\Database\MigrationRunner.php(873): App\Database\Migrations\Productos->up()
+#6 C:\Users\Rodrigo\Desktop\code\api\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\Users\Rodrigo\Desktop\code\api\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\Users\Rodrigo\Desktop\code\api\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\Users\Rodrigo\Desktop\code\api\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\Users\Rodrigo\Desktop\code\api\spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2023-10-28 23:29:25 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'NOT NULL,
+	`descripcion` text NULL,
+	`imagen` varchar(150) NULL,
+	`precio` float' at line 3 in C:\Users\Rodrigo\Desktop\code\api\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\Rodrigo\Desktop\code\api\system\Database\MySQLi\Connection.php(306): mysqli->query('CREATE TABLE `p...', 0)
+#1 C:\Users\Rodrigo\Desktop\code\api\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `p...')
+#2 C:\Users\Rodrigo\Desktop\code\api\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `p...')
+#3 C:\Users\Rodrigo\Desktop\code\api\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `p...')
+#4 C:\Users\Rodrigo\Desktop\code\api\app\Database\Migrations\2023-10-28-222405_Productos.php(24): CodeIgniter\Database\Forge->createTable('productos', true)
+#5 C:\Users\Rodrigo\Desktop\code\api\system\Database\MigrationRunner.php(873): App\Database\Migrations\Productos->up()
+#6 C:\Users\Rodrigo\Desktop\code\api\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\Users\Rodrigo\Desktop\code\api\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\Users\Rodrigo\Desktop\code\api\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\Users\Rodrigo\Desktop\code\api\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\Users\Rodrigo\Desktop\code\api\spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2023-10-28 23:30:08 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'NOT NULL,
+	`descripcion` text NULL,
+	`imagen` varchar(150) NULL,
+	`precio` float' at line 3 in C:\Users\Rodrigo\Desktop\code\api\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\Rodrigo\Desktop\code\api\system\Database\MySQLi\Connection.php(306): mysqli->query('CREATE TABLE `p...', 0)
+#1 C:\Users\Rodrigo\Desktop\code\api\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `p...')
+#2 C:\Users\Rodrigo\Desktop\code\api\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `p...')
+#3 C:\Users\Rodrigo\Desktop\code\api\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `p...')
+#4 C:\Users\Rodrigo\Desktop\code\api\app\Database\Migrations\2023-10-28-222405_Productos.php(24): CodeIgniter\Database\Forge->createTable('productos', true)
+#5 C:\Users\Rodrigo\Desktop\code\api\system\Database\MigrationRunner.php(873): App\Database\Migrations\Productos->up()
+#6 C:\Users\Rodrigo\Desktop\code\api\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\Users\Rodrigo\Desktop\code\api\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\Users\Rodrigo\Desktop\code\api\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\Users\Rodrigo\Desktop\code\api\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\Users\Rodrigo\Desktop\code\api\spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2023-10-28 23:31:15 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'NOT NULL,
+	`descripcion` text NULL,
+	`imagen` varchar(150) NULL,
+	`precio` float' at line 3 in C:\Users\Rodrigo\Desktop\code\api\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\Rodrigo\Desktop\code\api\system\Database\MySQLi\Connection.php(306): mysqli->query('CREATE TABLE `p...', 0)
+#1 C:\Users\Rodrigo\Desktop\code\api\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `p...')
+#2 C:\Users\Rodrigo\Desktop\code\api\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `p...')
+#3 C:\Users\Rodrigo\Desktop\code\api\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `p...')
+#4 C:\Users\Rodrigo\Desktop\code\api\app\Database\Migrations\2023-10-28-222405_Productos.php(24): CodeIgniter\Database\Forge->createTable('productos', true)
+#5 C:\Users\Rodrigo\Desktop\code\api\system\Database\MigrationRunner.php(873): App\Database\Migrations\Productos->up()
+#6 C:\Users\Rodrigo\Desktop\code\api\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\Users\Rodrigo\Desktop\code\api\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\Users\Rodrigo\Desktop\code\api\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\Users\Rodrigo\Desktop\code\api\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\Users\Rodrigo\Desktop\code\api\spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+CRITICAL - 2023-10-28 23:41:16 --> Undefined property: App\Controllers\ProductoController::$productoMmodel
+in APPPATH\Controllers\ProductoController.php on line 26.
+ 1 APPPATH\Controllers\ProductoController.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\ProductoController::$productoMmodel', 'C:\\Users\\Rodrigo\\Desktop\\code\\api\\app\\Controllers\\ProductoController.php', 26)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ProductoController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Rodrigo\\Desktop\\code\\api\\public\\index.php')
+CRITICAL - 2023-10-28 23:41:39 --> Undefined property: App\Controllers\ProductoController::$productoMmodel
+in APPPATH\Controllers\ProductoController.php on line 26.
+ 1 APPPATH\Controllers\ProductoController.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\ProductoController::$productoMmodel', 'C:\\Users\\Rodrigo\\Desktop\\code\\api\\app\\Controllers\\ProductoController.php', 26)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ProductoController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Rodrigo\\Desktop\\code\\api\\public\\index.php')
